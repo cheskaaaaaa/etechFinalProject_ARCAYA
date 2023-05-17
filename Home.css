@@ -1,6 +1,8 @@
+
 .navbar {
     list-style-type: none ;
     color:#8B705F ;
+    width: 0px;
 }
 
 a {
@@ -29,24 +31,26 @@ a {
 .d-flex{
     position: fixed;
     top: 42px;
-    right: 45px;
+    right: 200px;
 }
 
 .tgcf{
-    margin-top: 5px;
+    margin-top: 0px;
 }
 .main {
     font-size: 103px;
-    padding-left: 135px;
+    font-family: LeagueSpartanBold; src: url("LeagueSpartan-Bold.otf");
+    padding-left: 130px;
     
 }
 
 .additional {
     font-size: 22px;
-    text-align: right;
+    text-align: left;
     line-height: 13px;
     position: relative;
-    bottom: 150px;
+    bottom: 165px;
+    left: 990px;
     margin-right: 100px;
     
 }
@@ -54,15 +58,31 @@ a {
 
 
 .hotsgayspainting {
-   width: 1280px;
+   width: 1290px;
    position: relative;
-   left: 62px;
+   bottom: 119px;
+   left: 63.5px;
   }
 
   .plot {
+    position: relative;
+    bottom: 156px;
     padding: 72px;
   }
+
+  .taitoru{
+    font-size: 103px;
+  }
+
+  .body1 {
+    font-size: 22.5px;
+  }
+
  
  body {
+    background-image:url("splitcolorbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color:#E8DED6 ;
  }
+
