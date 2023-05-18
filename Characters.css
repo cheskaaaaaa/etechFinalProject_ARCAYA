@@ -1,6 +1,7 @@
 .navbar {
     list-style-type: none ;
     color:#8B705F ;
+    width: 0px;
 }
 
 a {
@@ -29,5 +30,5 @@ a {
 .d-flex{
     position: fixed;
     top: 42px;
-    right: 45px;
+    right: 200px;
 }

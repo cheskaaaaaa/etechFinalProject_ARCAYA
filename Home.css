@@ -39,8 +39,8 @@ a {
 }
 .main {
     font-size: 103px;
-    font-family: LeagueSpartanBold; src: url("LeagueSpartan-Bold.otf");
-    padding-left: 130px;
+    margin-left: 130px;
+    line-height: 118px;
     
 }
 
@@ -53,6 +53,14 @@ a {
     left: 990px;
     margin-right: 100px;
     
+}
+
+.ichi {
+    font-weight: 700;
+}
+
+.others {
+    font-weight: 200;
 }
 
 
@@ -72,10 +80,15 @@ a {
 
   .taitoru{
     font-size: 103px;
+    color: #E8DED6;
   }
 
-  .body1 {
-    font-size: 22.5px;
+  .body-1 {
+    font-size: 22px;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-top: 0px;
+    margin-left: ;
   }
 
  

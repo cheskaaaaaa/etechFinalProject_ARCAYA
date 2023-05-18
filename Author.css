@@ -1,10 +1,11 @@
 .navbar {
     list-style-type: none ;
     color:#8B705F ;
+    width: 0px;
 }
 
 a {
-    color: #8B705F;
+    color: #3C2322;
     text-decoration: none;
 }
 
@@ -29,5 +30,34 @@ a {
 .d-flex{
     position: fixed;
     top: 42px;
-    right: 45px;
+    right: 200px;
 }
+
+.aboutmxtx {
+    color: #8B705F;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-bottom: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
+ 
+
+}
+
+.chosha {
+    font-size: 24px;
+}
+
+.chosha-no-tsuite {
+    font-size: 18px;
+}
+
+body {
+    background-image:url("AuthorBGimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#E8DED6 ;
+ }
