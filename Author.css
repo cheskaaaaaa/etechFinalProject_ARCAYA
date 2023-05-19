@@ -37,10 +37,10 @@ a {
     color: #8B705F;
     text-align: center;
     position: relative;
-    margin-top: 145px;
-    margin-left: 270px;
-    margin-right: 320px;
-    margin-bottom: 295px;
+    margin-top: 135px;
+    margin-left: 350px;
+    margin-right: 275px;
+    margin-bottom: 300px;
     padding-left: 200px;
     padding-right: 200px;
  
@@ -52,7 +52,7 @@ a {
 }
 
 .chosha-no-tsuite {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 11px;
 }
 

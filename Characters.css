@@ -5,7 +5,7 @@
 }
 
 a {
-    color: #8B705F;
+    color: #FFFF;
     text-decoration: none;
 }
 
@@ -31,4 +31,27 @@ a {
     position: fixed;
     top: 42px;
     right: 200px;
+}
+
+.kyara {
+    color: #E8DED6;
+    font-size: 103px;
+    margin-left: 84px;
+
+}
+
+.card {
+    margin: 25px auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-text {
+    color: #E8DED6;
+    margin-left: 38%;
+}
+
+body {
+    background-color: #6D2723;
 }

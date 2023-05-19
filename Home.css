@@ -40,6 +40,10 @@ a {
 }
 .main {
     font-size: 103px;
+    @font-face {
+        font-family: 'league-spartan.bold';
+        src: url(league-spartan);
+    }
     margin-left: 130px;
     line-height: 118px;
     
