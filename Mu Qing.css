@@ -32,3 +32,71 @@ a {
     top: 8px;
     right: 150px;
 }
+
+@font-face {
+    font-family: glacialreg;
+    src: url(Fonts/GlacialIndifference-Regular.otf);
+}
+
+.details {
+   color: #E8DED6;
+   font-family: glacialreg;
+   position: relative;
+   margin-top: 0%;
+   margin-left: 38%;
+   margin-right: 20.5%;
+   margin-bottom: 0%;
+   line-height: 14px;
+}
+
+.title {
+    text-align: center;
+    margin-left: -29%;
+    margin-bottom: 8%;
+}
+
+@font-face {
+    font-family: zcool;
+    src: url(Fonts/ZCOOLXiaoWei-R.ttf);
+}
+
+.nameinkanji {
+    font-family: zcool;
+}
+
+.body_text {
+   color: #E8DED6;
+   font-family: glacialreg;
+   position: relative;
+   margin-top: 2%;
+   top: 0;
+   margin-left: 38%;
+   margin-right: 20.5%;
+}
+
+
+.xielian {
+    color: #E8DED6;
+    font-family: glacialreg;
+    position: relative;
+    top: 30%;
+    margin-left: 35%;
+    margin-right: 20.5%;
+    text-align: center;
+}
+
+.xieliandarling {
+    width: 388px;
+    position: relative;
+    bottom: 660px;
+    left: 116px;
+  
+}
+
+body {
+    position: absolute;
+    background-image: url("MuQngBG.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#E8DED6 ;
+}

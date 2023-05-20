@@ -33,8 +33,16 @@ a {
     right: 150px;
 }
 
+
+
+@font-face {
+    font-family: glacialreg;
+    src: url(Fonts/GlacialIndifference-Regular.otf);
+}
+
 .details {
-    color: #E8DED6;
+   color: #E8DED6;
+   font-family: glacialreg;
    position: relative;
    margin-top: 0%;
    margin-left: 38%;
@@ -49,8 +57,18 @@ a {
     margin-bottom: 8%;
 }
 
+@font-face {
+    font-family: zcool;
+    src: url(Fonts/ZCOOLXiaoWei-R.ttf);
+}
+
+.nameinkanji {
+    font-family: zcool;
+}
+
 .body_text {
    color: #E8DED6;
+   font-family: glacialreg;
    position: relative;
    margin-top: 2%;
    top: 0;
@@ -61,6 +79,7 @@ a {
 
 .xielian {
     color: #E8DED6;
+    font-family: glacialreg;
     position: relative;
     top: 30%;
     margin-left: 35%;
@@ -69,9 +88,11 @@ a {
 }
 
 .xieliandarling {
-    width: 388px; 
-    height: 722px; 
-    object-fit: cover;
+    width: 388px;
+    position: relative;
+    bottom: 660px;
+    left: 116px;
+  
 }
 
 body {

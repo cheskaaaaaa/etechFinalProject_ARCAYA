@@ -38,15 +38,17 @@ a {
     margin-top: 0px;
     
 }
+
+@font-face {
+    font-family: league;
+    src: url(Fonts/LeagueSpartan-Bold.otf);
+}
 .main {
-    font-size: 103px;
-    @font-face {
-        font-family: 'league-spartan.bold';
-        src: url(league-spartan);
-    }
+    color: #3C2322;
+    font-size: 90px;
     margin-left: 130px;
-    line-height: 118px;
-    
+    line-height: 116px;
+    font-family: league;
 }
 
 .additional {
@@ -56,16 +58,32 @@ a {
     position: relative;
     bottom: 165px;
     left: 990px;
-    margin-right: 100px;
+    margin-right: 0px;
     
 }
 
+@font-face {
+    font-family: glacial;
+    src: url(Fonts/GlacialIndifference-Bold.otf);
+}
+
+@font-face {
+    font-family: glacialreg;
+    src: url(Fonts/GlacialIndifference-Regular.otf);
+}
+
 .ichi {
+    color: #967F70;
     font-weight: 700;
+    font-size: 22px;
+    font-family: glacial;
 }
 
 .others {
+    color: #967F70;
     font-weight: 200;
+    font-size: 20px;
+    font-family: glacialreg;
 }
 
 
@@ -89,8 +107,8 @@ a {
   }
 
   .body-1 {
+    font-family: glacialreg;
     font-size: 22px;
-    font-weight: 200;
     color: #FFFFFF;
     padding-top: 0px;
     margin-left: ;
