@@ -1,10 +1,11 @@
 .navbar {
     list-style-type: none ;
     color:#8B705F ;
+    width: 0;
 }
 
 a {
-    color: #8B705F;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -28,6 +29,55 @@ a {
 
 .d-flex{
     position: fixed;
-    top: 42px;
-    right: 45px;
+    top: 8px;
+    right: 150px;
+}
+
+.details {
+    color: #E8DED6;
+   position: relative;
+   margin-top: 0%;
+   margin-left: 38%;
+   margin-right: 20.5%;
+   margin-bottom: 0%;
+   line-height: 14px;
+}
+
+.title {
+    text-align: center;
+    margin-left: -29%;
+    margin-bottom: 8%;
+}
+
+.body_text {
+   color: #E8DED6;
+   position: relative;
+   margin-top: 2%;
+   top: 0;
+   margin-left: 38%;
+   margin-right: 20.5%;
+}
+
+
+.xielian {
+    color: #E8DED6;
+    position: relative;
+    top: 30%;
+    margin-left: 35%;
+    margin-right: 20.5%;
+    text-align: center;
+}
+
+.xieliandarling {
+    width: 388px; 
+    height: 722px; 
+    object-fit: cover;
+}
+
+body {
+    position: absolute;
+    background-image: url("XieLianBackground-one.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#E8DED6 ;
 }

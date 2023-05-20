@@ -29,8 +29,8 @@ a {
 
 .d-flex{
     position: fixed;
-    top: 42px;
-    right: 200px;
+    top: 8px;
+    right: 150px;
 }
 
 .kyara {
@@ -49,11 +49,13 @@ a {
     gap: 30px;
 }
 
-.card-img-top {
+.img-thumbnail {
         width: 260px; 
         height: 540px; 
         object-fit: cover;
         object-position: 25% 25%; 
+        background-color: #100801;
+        
 }
 
 .card-text {

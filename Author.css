@@ -29,14 +29,14 @@ a {
 
 .d-flex{
     position: fixed;
-    top: 42px;
-    right: 200px;
+    top: 8px;
+    right: 150px;
 }
 
 .aboutmxtx {
     color: #8B705F;
     text-align: center;
-    position: relative;
+    position: absolute;
     margin-top: 135px;
     margin-left: 350px;
     margin-right: 275px;
