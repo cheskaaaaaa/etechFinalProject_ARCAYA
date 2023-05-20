@@ -5,7 +5,7 @@
 }
 
 a {
-    color: #FFFF;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -32,6 +32,17 @@ a {
     top: 8px;
     right: 150px;
 }
+
+@font-face {
+    font-family: glacial;
+    src: url(Fonts/GlacialIndifference-Bold.otf);
+}
+
+@font-face {
+    font-family: glacialreg;
+    src: url(Fonts/GlacialIndifference-Regular.otf);
+}
+
 
 .kyara {
     color: #E8DED6;
@@ -61,6 +72,39 @@ a {
 .card-text {
     color: #E8DED6;
     margin-left: 38%;
+}
+
+img{
+    transition: transform .2s;
+    width:50px;
+    height:50px;
+    margin:0 auto;
+    
+}
+img:hover{
+    transform:scale(1.5);
+}
+
+.hualian {
+    color: #E8DED6;
+    font-family: glacialreg;
+    margin-top: 8%;
+    margin-left: 140px;
+}
+
+.pairing {
+    font-size: 56px;
+}
+
+.desc {
+    margin-left: 15px;
+    margin-right: 80px;
+}
+
+.video1 {
+    margin-top: 10px;
+    margin-left: 11.5%;
+    margin-bottom: 10%;
 }
 
 body {

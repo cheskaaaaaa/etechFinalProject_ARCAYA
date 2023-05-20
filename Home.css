@@ -114,9 +114,12 @@ a {
     margin-left: ;
   }
 
+ body {
+    overflow-x: hidden;
+    }
  
  body {
-    background-image:url("splitcolorbg.png");
+    background-image:url("HomeBGimage2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-color:#E8DED6 ;
